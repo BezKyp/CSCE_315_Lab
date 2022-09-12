@@ -1,28 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Kyper Bezanson</title>
-<link rel="stylesheet" type="text/css" href="style.css"></link>
+    <title>Kyper Bezanson</title>
+    <link id="mainStyleSheet" rel="stylesheet" type="text/css" href="style.css"></link>
+    <div class="sidebar">
+        <header>Menu</header>
+        <a href="index.html">Home Page</a>
+        <a href="about.html">About</a>
+        <a href="tech.html">Technical Portfolio</a>
+        <a href="qualifications.html">Qualifications</a>
+        <a href="service.html">Service</a>
+    </div>
 </head>
 <body>
-<h1>Kyper Bezanson</h1>
-<!-- <button type="button" onclick="button1()">About</button> -->
-<a href="index.html">Home</a>
-<a href="about.html">About</a>
-<a href="tech.html">Technical Portfolio</a>
-<a href="qualifications.html">Qualifications</a>
-<a href="service.html">Service</a>
-<img src="images/ID Picture.jpg" alt="Picture of Kyper Bezanson">
-<h2>Howdy!</h2>
-<!-- <p class="blue_overline_text">Blue paragraph</p> -->
-<!-- <p id="red_underline_text">Red paragraph</p> -->
-<p class="left_text">Welcome to my page! I am a Junior Computer Science major at Texas A&M University.
-    I have greatly enjoyed my time at A&M and hope that I can share everything I have done and learned
-    so far.
-</p>
-<p></p>
-<p id="output"></p>
-<script src="functions.js"></script>
+    <script src="functions.js"></script>
+    <h1>Kyper Bezanson</h1>
+    
+    <img src="images/ID Picture.jpg" alt="Picture of Kyper Bezanson">
+    <div>
+        <h2>Howdy!</h2>
+        <p class="left_text">Welcome to my page! I am a Junior Computer Science major at Texas A&M University.
+            I have greatly enjoyed my time at A&M and hope that I can share everything I have done and learned
+            so far.
+        </p>
+        <p></p>
+        <p id="output"></p>
+        <script src="functions.js"></script>
+    </div>
+    <div class="p2">
+        <p>New paragraph!</p>
+    </div>
+    <div class="container">
+        <button onclick="toggleStyleSheet()" type="button">Toggle Style</button>
+    </div>
+    
 ...
 </body>
 </html>
